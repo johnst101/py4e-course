@@ -11,7 +11,7 @@ print(fh, fr)
 if fh > 40 :
     # print("Overtime")
     reg = fr * fh
-    otp = (fh - 40) * (fr * 1.5)
+    otp = (fh - 40) * (fr * 0.5)
     # print(reg, otp)
     xp = reg + otp
 else:
